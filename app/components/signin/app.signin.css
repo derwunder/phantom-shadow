@@ -1,0 +1,68 @@
+.signinlogobox{
+  background-image: url(../../images/bw_menu_2.jpg); /* url(../images/waves_blue_02.jpg);*/
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 30%;
+  display: inline-flex;
+}
+
+.signinlogocontent{
+  padding-top: 90px;
+  padding-left: 30%;
+}
+
+.signinlogocontent h2, .signinlogocontent p{
+  color: #fff;
+
+}
+.signinlogoborder{
+  display: inline-block;
+}
+
+.signinpanelbox{
+  background-image: url(../../images/bw_3.jpg); /* url(../images/waves_blue_02.jpg);*/
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 70%;
+  display: inline-flex;
+  vertical-align:top;
+
+}
+.signinpanel{
+  display: inline-block;
+  margin: auto;
+}
+
+@media (max-width: 650px) {
+  .signinlogobox{
+    height: 35vh;
+    display: block;
+    width: auto;
+    min-height: 200px;
+  }
+  .signinlogocontent{
+    padding-top: 40px;
+  }
+  .signinlogoinfo{
+    margin: 10px;
+    display:inline-block;
+    vertical-align:top;
+  }
+  .signinlogoinfo h2{
+    margin: 5px;
+  }
+  .signinpanelbox{
+    height: 65vh;
+    display: block;
+    width: auto;
+    min-height: 350px;
+  }
+  .signinpanelbox h2{
+    margin: 0;
+  }
+
+ }
