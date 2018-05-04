@@ -23,7 +23,7 @@ auth.onAuthStateChanged((user) => {
     };
     console.log(user);
     console.log(userData);
-    history.replace('/main');
+    history.replace('/main/home');
     // store.dispatch(loadBoxes());
   } else {
     console.log('Not Login');
